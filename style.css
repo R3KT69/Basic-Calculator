@@ -1,0 +1,101 @@
+@font-face {
+    font-family: font;
+    src: url(font.ttf);
+}
+
+body, button, input, select {
+    font-family: font;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main {
+    background-color: #c0c0c0;
+    height: auto;
+    width: auto;
+    padding: 7px;
+    padding-bottom: 12px;
+    
+}
+
+.result {
+    text-align: center;
+    background-color: #2a5faa;
+    color: white;
+    height: 50px;
+    top: 5px;
+    position: relative;
+    padding: 5px;
+}
+
+select {
+    border-style: none;
+    color: #2a5faa;
+    
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+select:focus {
+    outline: none;
+    text-align: center;
+    
+}
+
+select option {
+    color: #2a5faa;
+    background-color: #c0c0c0;
+}
+
+input {
+    width: 50px;
+    border-style: none;
+    border-radius: 0;
+    outline: none;
+}
+
+input::placeholder {
+    color: #2a5faa;
+}
+
+input:focus {
+    outline: none;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    color: #2a5faa;
+    text-align: center;
+}
+
+._p_ {
+    color: white;
+}
+
+button {
+    color: #2a5faa;
+    background-color: white;
+    border-style: none;
+}
+
+button:hover {
+    color: white;
+    background-color: #2a5faa;
+}
+
+.inputs {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    gap: 1px;
+}
